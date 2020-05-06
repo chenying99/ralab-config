@@ -1,5 +1,5 @@
 my:
-  greeting: Hello World from specific config server
+  greeting: updated Hello World from specific config server
   list:
     values: One,Two,Three
 dbValues: {connectionString: 'http://__',userName: 'foo',password: 'pass'}
@@ -8,6 +8,6 @@ app:
   description: Welcome to ${app.name}
 
 db:
-  connection: {connectionString: 'connectionString from specific config server',userName: 'foo',password: 'pass'}
+  connection: {connectionString: 'updated connectionString from specific config server',userName: 'foo',password: 'pass'}
   host: 127.0.0.1
   port: 1200
