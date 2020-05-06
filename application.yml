@@ -2,7 +2,7 @@ my:
   greeting: Hello World from config server
   list:
     values: One,Two,Three
-dbValues: {connectionString:'http://__',userName:'foo',password:'pass'}
+dbValues: {connectionString: 'http://__',userName: 'foo',password: 'pass'}
 app:
   name: My app
   description: Welcome to ${app.name}
