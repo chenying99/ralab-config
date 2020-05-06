@@ -1,0 +1,13 @@
+my:
+  greeting: Hello World from config server
+  list:
+    values: One,Two,Three
+dbValues: {connectionString:'http://__',userName:'foo',password:'pass'}
+app:
+  name: My app
+  description: Welcome to ${app.name}
+
+db:
+  connection: {connectionString: 'connectionString from config server',userName: 'foo',password: 'pass'}
+  host: 127.0.0.1
+  port: 1200
